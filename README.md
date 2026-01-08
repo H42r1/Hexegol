@@ -25,6 +25,11 @@ Dans `~/.exegol/my-resources/setup`, ajouter :
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ~/.tmux/plugins/tpm/bin/install_plugins
 ```
+Sur la machine hôte, il faut que xsel soit installé.
+
+```txt
+sudo apt install xsel
+```
 
 Créer un fichier `~/.exegol/my-resources/setup/tmux/tmux.conf` et ajouter cette config :
 
