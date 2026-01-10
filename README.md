@@ -1,5 +1,7 @@
 # Hexegol
 
+## Utiliser auto_run.sh si flemme.
+
 ## Git-tools
 
 Ajouter un dossier `git_tools` dans le répertoire `~/.exegol/my-resources`. Ce dossier contiendra tous les outils utiles trouvés sur github.com
