@@ -16,4 +16,4 @@ cp burp.sh ~/.exegol/my-resources/git_tools
 chmod +x burp.sh
 ~/.exegol/my-resources/git_tools/burp.sh
 rm burp.sh
-
+echo 'sudo update-alternatives --set java /usr/lib/jvm/java-21-openjdk/bin/java' >>  ~/.exegol/my-resources/setup/load_user_setup.sh
