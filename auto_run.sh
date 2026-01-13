@@ -17,9 +17,8 @@ cp tmux.conf ~/.exegol/my-resources/setup/tmux/
 echo "\n\n---------------fini---------------\n\n"
 
 echo "---------------Ajout de burp---------------"
-cp burp.sh ~/.exegol/my-resources/git_tools
-chmod +x burp.sh
-~/.exegol/my-resources/git_tools/burp.sh
+cp burp.sh ~/.exegol/my-resources/git_tools && cd ~/.exegol/my-resources/git_tools
+chmod +x burp.sh && ./burp.sh
 echo 'sudo update-alternatives --set java /usr/lib/jvm/java-21-openjdk/bin/java' >>  ~/.exegol/my-resources/setup/load_user_setup.sh
-rm burp.sh
+rm burp.sh && cd
 echo "\n\n---------------fini---------------\n\n"
