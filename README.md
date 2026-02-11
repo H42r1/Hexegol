@@ -49,4 +49,7 @@ run '~/.tmux/plugins/tpm/tpm'
 # --- Ajout du thème ---
 set -g @plugin 'uhs-robert/tmux-oasis'
 set -g @oasis_flavor "lagoon_dark"
+
+# --- COnfiguration de la souris ---
+set -g mouse on
 ```
