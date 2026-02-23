@@ -52,4 +52,6 @@ set -g @oasis_flavor "lagoon_dark"
 
 # --- COnfiguration de la souris ---
 set -g mouse on
+bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xsel -i -p && xsel -o -p | xsel -i -b"
+bind-key -T copy-mode MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xsel -i -p && xsel -o -p | xsel -i -b"
 ```
